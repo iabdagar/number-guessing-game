@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 25%;
+  margin: 5px auto;
+  box-shadow: 0 0 1px;
+  border-radius: 10px;
+  padding: 1% 2%;
+}
+
+.head {
+  text-align: center;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.head p {
+  font-size: 14px;
+  color: #5b5b5b;
+}
+
+.form {
+  box-shadow: 0 0 1px;
+  border-radius: 5px;
+  padding: 5% 10%;
+  width: 100%;
+  margin: 25px auto;
+}
+
+.form label {
+  text-align: center;
+  font-weight: 500;
+  color: #343434;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form input {
+  padding: 10px;
+  border: 1px solid #5d5d5d;
+  border-color: #5d5d5d;
+  border-radius: 5px;
+}
+
+.form .btn_submit {
+  background-color: #5d5d5d;
+  color: white;
+  cursor: pointer;
+}
+
+.low_high {
+  width: 100%;
+  margin: 10px auto;
+  font-size: 14px;
+  color: #919191;
+}
+
+.message {
+  width: 100%;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message p {
+  font-size: 14px;
+  color: #919191;
+}
+
+.message .prev_guesses {
+  font-size: 12px;
+}
+
+.result {
+  width: 100%;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result .game_over {
+  font-size: 14px;
+  color: #919191;
+}
+
+.result button {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(122, 120, 120);
+  color: white;
+  cursor: pointer;
+}
+
+.result .new_start {
+  background-color: #5b5b5b;
+  color: white;
+}
